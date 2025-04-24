@@ -1,34 +1,78 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Moje CV</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sample CV</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <h1>Kasia Łuszczewska</h1>
-    <p>DevOps</p>
-  </header>
+  <div class="container">
+    <!-- Left Column -->
+    <div class="sidebar">
+      <!-- Profile Photo -->
+      <div class="photo">
+        <img src="profile.jpg" alt="Profile Photo">
+      </div>
 
-  <section id="o-mnie">
-    <h2>O mnie</h2>
-    <p>Studenta informatyki AGH</p>
-  </section>
+      <div class="personal-info">
+        <h2>Kasia Łuszczewska</h2>
+        <p><strong>Email:</strong> kasia.luszczewska@example.com</p>
+        <p><strong>Phone:</strong> +123 456 789</p>
+        <p><strong>Location:</strong> Kraków, Poland</p>
+      </div>
 
-  <section id="umiejetnosci">
-    <h2>Umiejętności</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python</li>
-      <li>Azure, Docker, Kubernetes</li>
-    </ul>
-  </section>
+      <div class="skills">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Docker, Ansible, Github Actions</li>
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </div>
 
-  <!-- Dodaj kolejne sekcje... -->
+    <!-- Right Column -->
+    <div class="main">
+      <div class="profile">
+        <h1>John Doe</h1>
+        <p>Passionate full-stack developer with 5+ years of experience building web applications. Focused on clean, scalable code and intuitive user experiences.</p>
+      </div>
 
-  <footer>
-    <p>Kontakt: jan.kowalski@example.com</p>
-  </footer>
+      <div class="section">
+        <h2>Work Experience</h2>
+        <div class="item">
+          <h3>DevOps Engineer</h3>
+          <p><em>July 2024 - Present</em></p>
+          <p></p>
+        </div>
+        <div class="item">
+            <h3>Software Engineer and Electronics</h3>
+            <p><em>April 2023 - July 2024</em></p>
+            <p></p>
+          </div>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <div class="item">
+          <h3>BSc Automatic Control and Robotics</h3>
+          <p><em>AGH, 2019 - 2023</em></p>
+        </div>
+        <div class="item">
+            <h3>MSc Conputer Science</h3>
+            <p><em>AGH, 2023 - Present</em></p>
+          </div>
+      </div>
+
+      <div class="section">
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>MULTIPLAYER 3D CHESS (JAVA SCRIPT)</h3>
+          <p>The project allows two player to play simultaneously on separate screens over the samenetwork with real-time updates (Socket.IO). Game logic, piecies movement and physicswere implemented in Java Script. Additional, visual features such as captured pieces weredisplayed using HTML and CSS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
